@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+<header>
+    <div class="input">
+        <div class="calculo" id="calculo">calculo</div>
+        <div class="resultado" id="resultado">resultado</div>
+    </div>
+
+    <div class="align">
+        <div class="botoes">
+            <div class="coluna1">
+                <button class="ce-button">CE</button>
+                <button class="7-button">7</button>
+                <button class="4-button">4</button>
+                <button class="1-button">1</button>
+                <button class="plusminus-button">+/-</button>
+            </div>
+            <div class="coluna2">
+                <button class="c-button">C</button>
+                <button class="8-button">8</button>
+                <button class="5-button">5</button>
+                <button class="2-button">2</button>
+                <button class="0-button">0</button> 
+            </div>
+            <div class="coluna3">
+                <button class="percent-button">%</button>
+                <button class="9-button">9</button>
+                <button class="6-button">6</button>
+                <button class="3-button">3</button>
+                <button class="comma-button">,</button> 
+            </div>
+            <div class="coluna4">
+                <button class="divide-button">÷</button>
+                <button class="multiply-button">x</button>
+                <button class="subtract-button">-</button>
+                <button class="add-button">+</button>
+                <button class="equals-button">=</button>
+            </div>
+        </div>
+        <button class="reset-button">Resetar Histórico</button>
+    </div>
+
+    <div class="historico">
+        <h3>Histórico de Resultados</h3>
+        <ul id="historico-lista"></ul>
+    </div>
+</header>
+
+<script src="script.js"></script>
+
+</body>
+</html>
